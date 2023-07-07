@@ -9,8 +9,13 @@ Objects are variables too. But objects can contain many values.
 
 Objects are unordered collections of data and they are in the form of "key:value" pair.  
 
-The key:value pair (in JavaScript objects) are called properties. 
+A JavaScript object has properties associated with it.
+
+The key:value pairs (in JavaScript objects) are called properties. 
+
+Object properties are as same as variable except for the attachment to objects.
 
 Properties can usually be changed, added, and deleted, but some are read only. An object method is an object property containing a 
 function definition. 
 
+The properties of an object with a simple dot-notation (objectName.propertyName)
