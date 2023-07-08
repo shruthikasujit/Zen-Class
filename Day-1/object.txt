@@ -9,6 +9,11 @@ Objects are variables too. But objects can contain many values.
 
 Objects are unordered collections of data and they are in the form of "key:value" pair.  
 
+The internal representation of objects in JavaScript varies depending on the JavaScript engine or runtime environment being used.   
+
+Object Properties
+------------------
+
 A JavaScript object has properties associated with it.
 
 The key:value pairs (in JavaScript objects) are called properties. 
@@ -19,3 +24,21 @@ Properties can usually be changed, added, and deleted, but some are read only. A
 function definition. 
 
 The properties of an object with a simple dot-notation (objectName.propertyName)
+
+Object Methods
+--------------
+JavaScript methods are functions associated  with the object.
+
+A JavaScript method is a property containing a function definition.
+
+Prototype
+---------
+All JavaScript objects inherit properties and methods from a prototype.
+
+When a property is accessed on an object, the JavaScript engine will look for it in the object's prototype.
+
+Creation of object
+------------------
+
+The internal representation of objects created through different methods can vary, but the resulting objects will have similar 
+properties and behavior.
