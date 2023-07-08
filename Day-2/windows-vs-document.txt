@@ -1,13 +1,19 @@
 Windows Object
 --------------
+
 It is the top most object and outermost element of the object hierarchy.
 
 The window object represents a window/tab containing a DOM document.
 
 window object have properties and methods.
 
+It serves as the global scope.
+
+It can be accessed from any script running within the browser window.
+
 Document Object
 ----------------
+
 Each HTML document that gets loaded into a window becomes a document object.
 
 The document object is the property of the window object that points to the DOM document loaded in that window.
@@ -17,5 +23,7 @@ Document object also have properties and methods.
 When a web page is loaded, the browser creates a Document Object Model of the page.
 
 The document object represents the whole html document such as HTML, head, body, html tags etc.
+
+It can only be accessed within the context of that particular page.
 
 
